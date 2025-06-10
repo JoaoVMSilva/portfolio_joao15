@@ -15,7 +15,7 @@
     }
 
     /*Site video*/
-    video{
+    iframe{
         width: 80%;
         height: auto;
         
@@ -58,7 +58,7 @@
 
     /*Site video*/
 
-    video{
+    iframe{
         width: 97%;
         height: auto;
         margin-top: 10%;
