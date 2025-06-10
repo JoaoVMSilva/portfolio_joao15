@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+
+
+header{
+    display: flex;
+    border:3px red dotted;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px;
+    background-color: #222;
+
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 25px;
+    
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header i {
+    color: aliceblue;
+    font-size: large;
+}
+
+
+footer{
+    background-color: #222;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+
+footer span{
+    font-size: 0.8em;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+
+
+.titulo{
+    
+    color: aliceblue;
+    padding: 20px;
+}
+
+/*Site da imagens*/
+
+
+
+.aaa{
+    width:30%;
+    margin-inline: 151px;
+    margin-top: 20px;
+
+
+    
+    cursor: pointer;
+}
+
+img:hover{
+    box-shadow: 0px 0px 8px red;
+}
+
+.moldura{
+    background-color: azure;
+    border: 4px red;
+    border-radius: 20px;
+}
+
+
+
+
+/*Site do video*/
+
+video{
+    width: auto;
+    height: 620px;
+    margin: 10px;
+    
+
+    border-radius: 10px;
+}
+

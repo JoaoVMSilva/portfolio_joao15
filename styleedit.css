@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Montserrat", sans-serif;
+}
+
+
+header{
+    display: flex;
+    border:3px red dotted;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px;
+    background-color: #222;
+
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 25px;
+
+}
+
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+
+header i {
+    color: aliceblue;
+    font-size: large;
+}
+
+.titulo{
+    
+    color: aliceblue;
+    padding: 20px;
+}
+
+footer{
+    background-color: #222;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+
+footer span{
+    font-size: 0.8em;
+    font-weight: 200;
+    color: aliceblue;
+}
+
+
+
+
+main{
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main content h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+main figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main figure img{
+    width: 400px;
+    height: auto;
+
+
+    margin-bottom: 20px;
+    border: 2px solid red;
+    transition: 0,2s ease-in-out;
+}
+
+
+/*.box{
+    width: 80%;
+}*/
+
+.text p{
+    width: 75%;
+    font-size: 28px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.6;
+    color: aliceblue;
+}
+
+
+text{
+    margin-bottom: 10%;
+}
+
+
+
+
+/*RESPONSIVIDADE*/
+
+@media(max-width: 1200px) {
+    header h1{
+        font-size: 32px;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main figure img{
+        margin: 20px;
+        width: 50%;
+    }
+
+    .text p{
+
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 700px){
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header h1{
+        font-size: 28px;
+    }
+
+    header nav{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    header nav a{
+        font-size: 20px;
+    }
+
+        main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    main figure img{
+        margin: 20px;
+        width: 70%;
+    }
+}
+
